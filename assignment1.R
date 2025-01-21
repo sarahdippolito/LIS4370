@@ -1,2 +1,2 @@
-hi <- 4
+hi <- sqrt(4)
 hi
