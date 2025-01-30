@@ -11,3 +11,4 @@ election_poles <- data.frame(Name, ABC_result, CBS_result)
 election_poles 
 
 colnames(election_poles) <- c("Candidate", "ABC Pole", "CBC Pole")
+election_poles
