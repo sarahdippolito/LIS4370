@@ -7,8 +7,8 @@ ABC_result
 CBS_result  <- c(12, 75, 43, 19, 1, 21, 19) 
 CBS_result
 
-election_poles <- data.frame(Name, ABC_result, CBS_result)
-election_poles 
+election_polls <- data.frame(Name, ABC_result, CBS_result)
+election_polls 
 
-colnames(election_poles) <- c("Candidate", "ABC Pole", "CBC Pole")
-election_poles
+colnames(election_polls) <- c("Candidate", "ABC Poll", "CBS Poll")
+election_polls
