@@ -19,7 +19,7 @@ hist(bloodp, main="Histogram of Blood Pressure", col="lightpink")
 boxplot(first, main="Boxplot of GD Assesment", col="lightblue")
 hist(first, breaks=2, main="Histogram of GD Assesment", col="lightblue")
 
-
+par(mfrow=c(1,1))
 first1 <- c("Bad", "Bad", "Bad", "Bad", "Good", "Good", "Good", "Good", NA, "Bad")
 first1 <- table(first1)
 barplot(first1, main="Barplot of GD Assesment", col=c("red", "green"))
