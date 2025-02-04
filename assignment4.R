@@ -23,3 +23,5 @@ par(mfrow=c(1,1))
 first1 <- c("Bad", "Bad", "Bad", "Bad", "Good", "Good", "Good", "Good", NA, "Bad")
 first1 <- table(first1)
 barplot(first1, main="Barplot of GD Assesment", col=c("red", "green"))
+
+boxplot(bloodp ~ first, data=medical.df, col=c("green", "red"), main="BoxPlot with Blood Pressure and GD Assesment", xlab="GD's Assesment", ylab="Blood Pressure")
