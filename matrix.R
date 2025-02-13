@@ -1,6 +1,7 @@
 #Matrix Operations in R#
 
 #Example
+library("RConics")
 M <- matrix(c(4,6,1,3,2,5,8,5,9), nrow=3)
 M
 detM <- det(M)
